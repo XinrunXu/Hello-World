@@ -1,5 +1,8 @@
-[toc]
-# 复现他人代码中，解决不了的问题
+## 复现他人代码中，解决不了的问题
+- [Seq2Act](#seq2act)
+- [UIBert](#uibert)
+- [BTW](#btw)
+
 # Seq2Act
 版本要求为 tensorflow==1.15，但是跟它的代码很多地方不适配
 train 的时候报错:
@@ -103,3 +106,6 @@ Original stack trace for 'save/RestoreV2':
 # UIBert
 1. 代码中公开的数据集和文章中描述的数据集数量完全对不上
 2. 没有公开任何除了数据集之外的代码，甚至不知道怎么用同样的数据集在其他模型上测试
+
+# BTW
+- 愿意有偿寻求帮助解决问题的同行者
